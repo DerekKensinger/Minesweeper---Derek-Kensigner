@@ -105,8 +105,3 @@ void cMain::OnButtonClicked(wxCommandEvent& evt)
 	evt.Skip();
 }
 
-void OnButtonClicked(wxCommandEvent& evt)
-{
-	
-
-}

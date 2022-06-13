@@ -110,12 +110,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(C:\Users\Derek Kensinger\Documents\wxWidgets)\include; $(C:\Users\Derek Kensinger\Documents\wxWidgets)\include\msvc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Derek Kensinger\Documents\wxWidgets\include; C:\Users\Derek Kensinger\Documents\wxWidgets\include\msvc</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(C:\Users\Derek Kensinger\Documents\wxWidgets)\lib\vc_lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Derek Kensinger\Documents\wxWidgets\lib\vc_lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -126,14 +126,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(C:\Users\Derek Kensinger\Documents\wxWidgets)\include; $(C:\Users\Derek Kensinger\Documents\wxWidgets)\include\msvc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Derek Kensinger\Documents\wxWidgets\include; C:\Users\Derek Kensinger\Documents\wxWidgets\include\msvc</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(C:\Users\Derek Kensinger\Documents\wxWidgets)\lib\vc_lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Derek Kensinger\Documents\wxWidgets\lib\vc_lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
